@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: JW Export Email to CSV
-Plugin URI: http://wordpress.org/extend/plugins/jw-export-email-to-csv/
+Plugin URI: http://josiahdwilliams.com/plugins/jw-export-email-to-csv/jw-export-email-to-csv.zip
 Description: Export Emails to a csv file for use in address books and mailing lists.
 Version: 1.0.0
 Author: Josiah Williams
