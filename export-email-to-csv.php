@@ -106,8 +106,11 @@ class PP_EU_Export_Email {
 				'user_registered', 'user_activation_key', 'user_status',
 				'display_name'
 			);
-			$jw_keys = array( //change to only export email 
-				 'user_email'
+			$jw_keys = array( //change to only export email by removing all but 'user_email'
+				'ID', 'user_login', 'user_pass',
+				'user_nicename', 'user_email', 'user_url',
+				'user_registered', 'user_activation_key', 'user_status',
+				'display_name', 'user_level', 'capabilities'
 				
 			);
 			$meta_keys = $wpdb->get_results( "SELECT distinct(meta_key) FROM $wpdb->usermeta" );
